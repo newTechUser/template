@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24,26,27);
+}
+.sec2{
+    padding-top: 80px;
+    height: 600px;
+}
+.sec3{
+    background-color: rgb(248,249,250);
+    width: 100%;
+    height: 1100px;
+}
+.sec4{
+    width: 100%;
+    height: 1700px;
+    padding-top: 100px;
+}
+.sec5{
+    width: 100%;
+    height: 800px;
+    padding-top: 100px;
+    background-color: rgb(248,249,250);
+}
+.sec6{
+    width: 100%;
+    height: 450px;
+}
+#img1{
+    width: 100%;
+    height: 680px;
+    opacity: 1;
+    background-color: black;
+}
+li{
+    list-style: none;
+    display: inline;
+    float: right;
+    font-size: 20px;
+    padding: 20px 25px;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li:hover{
+    color: yellow;
+}
+#txt1{
+    font-size: 28px;
+    font-weight: bold;
+    color: yellow;
+    padding: 10px 20px 15px;
+}
+#txt2{
+    font-size: 45px;
+    position: absolute;
+    top: 300px;
+    color: white;
+    font-weight: bold;
+}
+#txt3{
+    font-size: 80px;
+    position: absolute;
+    top: 380px;
+    color: white;
+    font-weight: bold;
+}
+#txt4{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+#txt5{
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 0px;
+}
+#textheader{
+    font-weight: bold;
+    font-size: 100px;
+}
+#textcontent{
+    font-size: 18px;
+    text-align: center;
+}
+#txt6{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+#txt7{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+#txt8{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#txt9{
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+.btn{
+    background-color: yellow;
+    color: white;
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    top: 500px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+#txt1:hover{
+    color: yellow;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-primary{
+    width: 70px;
+    height: 70px;
+    color: white;
+}
+.fa-inverse{
+    width: 70px;
+    height: 70px;
+    color: white;
+}
+.iconf{
+    background: rgb(255,206,26);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconContent{
+    text-align: justify;
+    padding: 20px 20px 0px 20px;
+}
+.box{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iconflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255,255,255);
+}
+
+
+
+/* ----------------------------------------- */
+
+
+
+.fa-3x{
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto1{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.iconX{
+    background-color: rgb(255,206,26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.icon:hover{
+    background-color: rgb(255,206,26);
+}
+.icon{
+    position: relative;
+}
+.picture:hover{
+    opacity: 0.2;
+    background-color: rgb(255,206,26);
+}
+.icon:hover .iconX{
+    visibility: visible;
+    background-color: rgb(255,206,26);
+}
+
+
+.card{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-twitter{
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.fa-facebook-f{
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.fa-linkedin-in{
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.iconsY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconZ{
+    padding: 10px;
+}
+.iconT{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.end{
+    background-image: url(map1.png);
+}
+
+
+.mainX{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
