@@ -1,0 +1,67 @@
+.main .container {
+  padding-top: 100px;
+}
+.main .container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .container .cards .card {
+  padding: 0px 20px 0px 20px;
+}
+.main .container .cards .card .card_item {
+  border: 1px solid grey;
+  width: 280px;
+  height: 380px;
+}
+.main .container .cards .card .card_item .cases {
+  position: relative;
+}
+.main .container .cards .card .card_item .cases .case {
+  padding: 3px;
+  display: inline;
+  background-color: #212519;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  right: 5px;
+}
+.main .container .cards .card .card_item .img img {
+  width: 280px;
+  height: 180px;
+}
+.main .container .cards .card .card_item .text .head {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.main .container .cards .card .card_item .text .icon {
+  text-align: center;
+}
+.main .container .cards .card .card_item .text .icon .bi {
+  color: yellow;
+}
+.main .container .cards .card .card_item .text .about {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+.main .container .cards .card .card_item .text .btn {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.main .container .cards .card .card_item .text button {
+  width: 107;
+  height: 62;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid;
+}
+.main .container .cards .card .card_item .text button:hover {
+  transition: 0.2s;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=app.css.map */
